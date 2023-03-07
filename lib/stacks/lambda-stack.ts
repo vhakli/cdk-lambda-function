@@ -20,7 +20,7 @@ export class LambdaStack extends Stack {
         LayerVersion.fromLayerVersionArn(
           this,
           "axiosLayer",
-          "arn:aws:lambda:us-east-1:522496507093:layer:axioslayer29F42384:5",
+          "arn:aws:lambda:us-east-1:522496507093:layer:axioslayer29F42384:8"
         ),
       ],
     });
