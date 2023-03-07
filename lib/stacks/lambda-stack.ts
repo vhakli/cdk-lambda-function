@@ -14,13 +14,13 @@ export class LambdaStack extends Stack {
       timeout: Duration.seconds(5),
       bundling: {
         sourceMap: true,
-        externalModules: ["aws-sdk", "@villehx/axios-layer"],
+        externalModules: ["aws-sdk", "@villehx/axios"],
       },
       layers: [
         LayerVersion.fromLayerVersionArn(
           this,
           "axiosLayer",
-          "arn:aws:lambda:us-east-1:522496507093:layer:axioslayer29F42384:8"
+          "arn:aws:lambda:us-east-1:522496507093:layer:axioslayer29F42384:9"
         ),
       ],
     });

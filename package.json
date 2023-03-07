@@ -1,14 +1,13 @@
 {
   "name": "cdk-lambda-function",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "workspaces": [
     "layers/layers/*",
     "lambdas/*"
   ],
   "devDependencies": {
+    "esbuild": "^0.17.11",
     "lerna": "^6.5.1"
   },
   "dependencies": {
