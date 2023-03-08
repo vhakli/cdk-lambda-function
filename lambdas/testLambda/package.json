@@ -5,6 +5,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@villehx/axios": "^1.0.0"
+    "@villehx/axios": "^1.0.0",
+    "@villehx/xray": "^1.0.0"
   }
 }
